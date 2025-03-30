@@ -19,7 +19,7 @@ conda install -c bottler nvidiacub
 pip install git+https://github.com/facebookresearch/pytorch3d.git@v0.4.0
 
 #Install other dependencies for visualization
-pip install vtk==9.1.0 vedo=2021.0.5 opencv=3.4.2
+pip install vtk==9.1.0 vedo==2021.0.5 opencv==3.4.2
 
 #Install torch_geometric to run the model from the paper
 pip install torch-geometric==1.7.2 torch-scatter==2.0.9 torch-sparse==0.6.12
